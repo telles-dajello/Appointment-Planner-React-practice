@@ -3,7 +3,7 @@ import {  Outlet, NavLink } from "react-router-dom";
 export const ROUTES = {
     CONTACTS: "/contacts",
     APPOINTMENTS: "/appointments",
-  };
+    };
 
 function Root() {
     return (
@@ -17,7 +17,7 @@ function Root() {
                 </NavLink>
             </nav>
             <Outlet/>
-      </>
+        </>
     );
 
 }
