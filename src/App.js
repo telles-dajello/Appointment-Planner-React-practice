@@ -18,9 +18,9 @@ function App() {
     };
   }, [contacts]);
 
-    const addAppointment = useCallback(() => {(name, contact, date, time) =>{
+    const addAppointment = useCallback(() => {(title, contact, date, time) =>{
     const appointmentToAdd = {
-      name: name,
+      title: title,
       contact: contact,
       date: date,
       time: time
